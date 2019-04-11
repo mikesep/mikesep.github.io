@@ -1,0 +1,32 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.3em;
+  margin: 2em;
+}
+
+.footer {
+  font-size: smaller;
+}
+
+#links {
+  list-style: none;
+}
+
+#links li {
+  margin-top: 0.2em;
+}
+
+#links li::before {
+  font-family: "Font Awesome 5 Brands";
+  margin-right: 0.3em;
+}
+
+#links li#github::before {
+  content: "\f09b";
+}
+#links li#gitlab::before {
+  content: "\f296";
+}
+#links li#twitter::before {
+  content: "\f099";
+}
