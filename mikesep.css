@@ -8,6 +8,12 @@ body {
   font-size: smaller;
 }
 
+a.pdf::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f1c1";
+  margin-right: 0.3em;
+}
+
 #links {
   list-style: none;
 }
